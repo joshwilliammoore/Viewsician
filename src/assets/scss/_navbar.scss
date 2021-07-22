@@ -1,0 +1,12 @@
+$navbar-dark: #001aff;
+$navbar-dark-font: #ffbb00;
+$navbar-dark-hover: #ff5100;
+
+.navbar-light {
+    background-color: $navbar-dark;
+    text-decoration-color: $navbar-dark-font;
+}
+
+.navbar :hover {
+    text-decoration-color: $navbar-dark-hover;
+}
